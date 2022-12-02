@@ -45,22 +45,22 @@ document.getElementById("result_2").innerHTML = results[1].label;
 prediction_1 = results[0].label;
 prediction_2 = results[1].label;
 speak();
-if(results[0].label = "Happy"){
+if(results[0].label == "Happy"){
 document.getElementById("update_emoji").innerHTML = "&#128512";
 }
-if(results[0].label = "Sad"){
+if(results[0].label == "Sad"){
     document.getElementById("update_emoji").innerHTML = "&#128546";
     }
-    if(results[0].label = "angry"){
+    if(results[0].label == "angry"){
         document.getElementById("update_emoji").innerHTML = "&#128548";
         }
-        if(results[1].label = "Happy"){
+        if(results[1].label == "Happy"){
             document.getElementById("update_emoji2").innerHTML = "&#128512";
             }
-            if(results[1].label = "Sad"){
+            if(results[1].label == "Sad"){
                 document.getElementById("update_emoji2").innerHTML = "&#128546";
                 }
-                if(results[1].label = "angry"){
+                if(results[1].label == "angry"){
                     document.getElementById("update_emoji2").innerHTML = "&#128548";
                     }
 }
